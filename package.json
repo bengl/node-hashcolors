@@ -1,6 +1,6 @@
 {
   "author": "Bryan English <bryan@bryanenglish.com>",
-  "name": "colorhash",
+  "name": "hashcolors",
   "description": "A visualization of hashes usig ANSI colors.",
   "version": "0.0.1",
   "homepage": "http://github.com/bengl/colorhash",
@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git://github.com/bengl/colorhash.git"
   },
-  "main": "colorhash",
+  "main": "hashcolors",
   "bin": { 
     "md5color": "./md5color",
     "sha1color": "./sha1color",

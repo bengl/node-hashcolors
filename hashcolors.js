@@ -8,11 +8,10 @@ var printColors = module.exports.printColors = function(stream,hashed){
 
 module.exports.printColorsTerm = function(input,alg){
   var parse = function(err, data){
-    require('./colorhash.js')
-      .printColors( 
-          process.stdout, 
-          require('cryptojs').Crypto[alg](err ? input : data)
-      );
+    printColors( 
+      process.stdout, 
+        require('cryptojs').Crypto[alg](err ? input : data)
+    );
   };
 
   require('fs').readFile(input,parse);

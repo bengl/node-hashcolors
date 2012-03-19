@@ -1,7 +1,7 @@
-colorhash
-=========
+hashcolors
+==========
 
-**colorhash** introduces some commands corresponding to some hashing algorithms. These commands are:
+**hashcolors** introduces some commands corresponding to some hashing algorithms. These commands are:
 
 * <code>md5hash</code>
 * <code>sha1hash</code>
