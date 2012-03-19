@@ -1,0 +1,23 @@
+{
+  "author": "Bryan English <bryan@bryanenglish.com>",
+  "name": "colorhash",
+  "description": "A visualization of hashes usig ANSI colors.",
+  "version": "0.0.1",
+  "homepage": "http://github.com/bengl/colorhash",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bengl/colorhash.git"
+  },
+  "main": "colorhash",
+  "bin": { 
+    "md5color": "./md5color",
+    "sha1color": "./sha1color",
+    "sha256color": "./sha256color"
+  }
+  "dependencies": { "cryptojs":"2.5.3" },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

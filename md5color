@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+// vim: ft=javascript
+require('./colorhash.js').printColorsTerm(process.argv[process.argv.length-1],'MD5');
