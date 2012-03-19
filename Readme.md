@@ -1,6 +1,8 @@
 hashcolors
 ==========
 
+![](http://i.imgur.com/Ki5Nv.png)
+
 **hashcolors** introduces some commands corresponding to some hashing algorithms. These commands are:
 
 * <code>md5hash</code>
