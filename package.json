@@ -13,7 +13,7 @@
     "md5color": "./md5color",
     "sha1color": "./sha1color",
     "sha256color": "./sha256color"
-  }
+  },
   "dependencies": { "cryptojs":"2.5.3" },
   "devDependencies": {},
   "optionalDependencies": {},
